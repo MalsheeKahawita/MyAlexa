@@ -3,6 +3,8 @@ import pyttsx3
 
 listner = sr.Recognizer()
 engine = pyttsx3.init()
+engine.say('I am your alexa')
+    engine.runAndWait()
 
 try:
     with sr.Microphone() as source:
