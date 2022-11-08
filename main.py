@@ -5,7 +5,7 @@ listner = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.getProperty('voices', voices[1])
-
+#
 def talk (text):
     engine.say('text')
     engine.runAndWait()
